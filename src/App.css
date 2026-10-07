@@ -1,0 +1,54 @@
+.clock-container{
+  width: 60%;
+  height: 300px;
+  align-self: center;
+  margin-top: 150px;
+  border: 2px solid #333;
+  border-radius: 20px;
+}
+  .clock-container h1{
+     font-family: monospace;
+  text-align: center;
+  width: 100%;
+  font-variant-numeric: tabular-nums;
+  margin-top: 60px;
+  font-size: 80px;
+}
+.controlBtns{
+  margin: 80px;
+  display: flex;
+  justify-content: space-around;
+}
+.start-btn{
+  width: 30%;
+  height: 60px;
+  border-radius: 15px;
+  cursor: pointer;
+
+
+}
+.start-btn:hover{
+  transform: translateY(-5px);
+  background-color: hsla(0, 7%, 32%, 0.279);
+}
+.pause-btn:hover{
+  transform: translateY(-5px);
+  background-color: hsla(0, 7%, 32%, 0.279);
+}
+.pause-btn{
+    width: 30%;
+    height: 60px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.reset-btn{
+   width: 30%;
+   height: 60px;
+   border-radius: 15px;
+   cursor: pointer;
+   background-color: rgb(155, 65, 65);
+  }
+  .reset-btn:hover{
+      transform: translateY(-5px);
+  background-color: hsla(0, 60%, 32%, 0.279);
+  }
